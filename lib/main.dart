@@ -1,5 +1,5 @@
 import 'package:ecommercetask/code/cart/model/cart_model.dart';
-import 'package:ecommercetask/code/product/screens/product_list_screen.dart';
+import 'package:ecommercetask/code/location/location_permission_page.dart';
 import 'package:ecommercetask/common/navigation.dart';
 import 'package:ecommercetask/constants/colors.dart';
 import 'package:flutter/material.dart';
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: themeColor),
       ),
-      home: const ProductListScreen(),
+      home: const LocationPermissionPage(),
     );
   }
 }

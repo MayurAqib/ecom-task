@@ -80,7 +80,6 @@ class ProductController extends Notifier<ProductState> {
 
   void filterProductList(String query) {
     if (query.isEmpty) {
-      // Reset to the full list
       loadRestaurants();
       return;
     }

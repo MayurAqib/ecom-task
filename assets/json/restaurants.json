@@ -1,0 +1,479 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "restaurant_name": "Spicy Grill",
+            "restaurant_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc3RhdXJhbnRzfGVufDB8fDB8fHww",
+            "v_image": "https://images.unsplash.com/photo-1723744910476-19987e2bc32c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JpbGwlMjBmb29kfGVufDB8fDB8fHww",
+            "h_image": "https://plus.unsplash.com/premium_photo-1723733589967-dfd9b2c07791?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyaWxsJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+            "address": "Sector 12, Connaught Place",
+            "city": "New Delhi",
+            "rating": "4.5",
+            "distance": "2.3 km",
+            "variants": [
+                {
+                    "category_name": "Burgers",
+                    "data": [
+                        {
+                            "id": "spicygrill_burgers_1",
+                            "name": "Cheese Burst Burger",
+                            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww",
+                            "description": "Juicy chicken patty with extra cheese and lettuce",
+                            "price": "180",
+                            "time_to_cook": "25 Mins",
+                            "serve_type": "Home-Visit"
+                        },
+                        {
+                            "id": "spicygrill_burgers_2",
+                            "name": "Veggie Delight Burger",
+                            "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fHww",
+                            "description": "Crispy veg patty with mayo and fresh veggies",
+                            "price": "120",
+                            "time_to_cook": "20 Mins",
+                            "serve_type": "Home-Visit"
+                        },
+                        {
+                            "id": "spicygrill_burgers_3",
+                            "name": "Grilled Paneer Burger",
+                            "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D",
+                            "description": "Soft paneer cubes grilled with spicy sauce",
+                            "price": "150",
+                            "time_to_cook": "22 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "spicygrill_burgers_4",
+                            "name": "Double Chicken Burger",
+                            "image": "https://images.unsplash.com/photo-1625683257212-116d74981941?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3Dr",
+                            "description": "Two-layer chicken patty with cheese and mayo",
+                            "price": "220",
+                            "time_to_cook": "28 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                },
+                {
+                    "category_name": "Beverages",
+                    "data": [
+                        {
+                            "id": "spicygrill_beverages_1",
+                            "name": "Cold Coffee",
+                            "image": "https://images.unsplash.com/photo-1708077807043-1db0e99c4112?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fGJldmVyYWdlc3xlbnwwfDB8MHx8fDA%3D",
+                            "description": "Iced coffee with chocolate syrup",
+                            "price": "90",
+                            "time_to_cook": "10 Mins",
+                            "serve_type": "Home-Visit"
+                        },
+                        {
+                            "id": "spicygrill_beverages_2",
+                            "name": "Mojito",
+                            "image": "https://plus.unsplash.com/premium_photo-1721025986183-c33686ecf4d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGJldmVyYWdlc3xlbnwwfDB8MHx8fDA%3D",
+                            "description": "Refreshing lemon and mint soda",
+                            "price": "110",
+                            "time_to_cook": "10 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "spicygrill_beverages_3",
+                            "name": "Lemon Iced Tea",
+                            "image": "https://images.unsplash.com/photo-1569386122081-c0434f8864ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGJldmVyYWdlc3xlbnwwfDB8MHx8fDA%3D",
+                            "description": "Chilled tea with a tangy lemon twist",
+                            "price": "95",
+                            "time_to_cook": "8 Mins",
+                            "serve_type": "Home-Visit"
+                        },
+                        {
+                            "id": "spicygrill_beverages_4",
+                            "name": "Strawberry Shake",
+                            "image": "https://plus.unsplash.com/premium_photo-1721227932291-78b159215331?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGJldmVyYWdlc3xlbnwwfDB8MHx8fDA%3D",
+                            "description": "Creamy milkshake with fresh strawberries",
+                            "price": "130",
+                            "time_to_cook": "12 Mins",
+                            "serve_type": "Home-Visit"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "restaurant_name": "Madras Cafe",
+            "restaurant_image": "https://images.unsplash.com/photo-1684215031343-ac918cfbfd5a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHJlc3RhdXJhbnRzfGVufDB8MnwwfHx8MA%3D%3D",
+            "v_image": "https://plus.unsplash.com/premium_photo-1681841594224-ad729a249113?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudHN8ZW58MHwxfDB8fHww",
+            "h_image": "https://images.unsplash.com/photo-1667388968964-4aa652df0a9b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHJlc3RhdXJhbnRzfGVufDB8MHwwfHx8MA%3D%3D",
+            "address": "Anna Nagar, MG Road",
+            "city": "Bangalore",
+            "rating": "4.7",
+            "distance": "3.1 km",
+            "variants": [
+                {
+                    "category_name": "South Indian",
+                    "data": [
+                        {
+                            "id": "madrascafe_southindian_1",
+                            "name": "Masala Dosa",
+                            "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c291dGglMjBpbmRpYW4lMjBmb29kfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Crispy dosa stuffed with spiced potato filling",
+                            "price": "80",
+                            "time_to_cook": "15 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_southindian_2",
+                            "name": "Idli Sambar",
+                            "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c291dGglMjBpbmRpYW4lMjBmb29kfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Steamed rice cakes served with hot sambar",
+                            "price": "60",
+                            "time_to_cook": "12 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_southindian_3",
+                            "name": "Vada with Coconut Chutney",
+                            "image": "https://images.unsplash.com/photo-1668236499396-a62d2d1cb0cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNvdXRoJTIwaW5kaWFuJTIwZm9vZHxlbnwwfDB8MHx8fDA%3D",
+                            "description": "Crispy fried vada served with fresh coconut chutney",
+                            "price": "70",
+                            "time_to_cook": "14 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_southindian_4",
+                            "name": "Upma",
+                            "image": "https://plus.unsplash.com/premium_photo-1694141250007-fc4711bb9df1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNvdXRoJTIwaW5kaWFuJTIwZm9vZHxlbnwwfDB8MHx8fDA%3D",
+                            "description": "Soft rava upma cooked with vegetables and spices",
+                            "price": "65",
+                            "time_to_cook": "13 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                },
+                {
+                    "category_name": "Beverages",
+                    "data": [
+                        {
+                            "id": "madrascafe_beverages_1",
+                            "name": "Filter Coffee",
+                            "image": "https://plus.unsplash.com/premium_photo-1674327105074-46dd8319164b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Traditional South Indian filter coffee",
+                            "price": "40",
+                            "time_to_cook": "8 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_beverages_2",
+                            "name": "Buttermilk",
+                            "image": "https://images.unsplash.com/photo-1630409346699-79481a79db52?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnV0dGVybWlsa3xlbnwwfDB8MHx8fDA%3D",
+                            "description": "Cool refreshing spiced buttermilk",
+                            "price": "35",
+                            "time_to_cook": "5 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_beverages_3",
+                            "name": "Lassi",
+                            "image": "https://images.unsplash.com/photo-1527406619566-0159590b8540?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFzc2l8ZW58MHwwfDB8fHww",
+                            "description": "Sweet curd-based lassi served chilled",
+                            "price": "50",
+                            "time_to_cook": "7 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "madrascafe_beverages_4",
+                            "name": "Fresh Lime Soda",
+                            "image": "https://plus.unsplash.com/premium_photo-1661540515873-0d7c4e07891a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGltZSUyMHNvZGF8ZW58MHwwfDB8fHww",
+                            "description": "Refreshing soda with lime and a hint of salt",
+                            "price": "45",
+                            "time_to_cook": "6 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "restaurant_name": "Bombay Biryani House",
+            "restaurant_image": "https://plus.unsplash.com/premium_photo-1726876844515-df2e188772c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fHJlc3RhdXJhbnRzfGVufDB8MnwwfHx8MA%3D%3D",
+            "v_image": "https://plus.unsplash.com/premium_photo-1664471481552-853edab2529c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHN8ZW58MHwxfDB8fHww",
+            "h_image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHJlc3RhdXJhbnRzfGVufDB8MHwwfHx8MA%3D%3D",
+            "address": "Linking Road, Bandra West",
+            "city": "Mumbai",
+            "rating": "4.6",
+            "distance": "4.8 km",
+            "variants": [
+                {
+                    "category_name": "Biryani",
+                    "data": [
+                        {
+                            "id": "bombaybiryani_biryani_1",
+                            "name": "Chicken Biryani",
+                            "image": "https://images.unsplash.com/photo-1642821373181-696a54913e93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJpeWFuaXxlbnwwfDB8MHx8fDA%3D",
+                            "description": "Fragrant basmati rice with spiced chicken",
+                            "price": "220",
+                            "time_to_cook": "30 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_biryani_2",
+                            "name": "Mutton Biryani",
+                            "image": "https://cdn.pixabay.com/photo/2024/01/18/17/20/ai-generated-8517258_1280.jpg",
+                            "description": "Slow-cooked mutton with saffron rice",
+                            "price": "280",
+                            "time_to_cook": "35 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_biryani_3",
+                            "name": "Veg Dum Biryani",
+                            "image": "https://cdn.pixabay.com/photo/2024/01/18/17/20/ai-generated-8517259_1280.jpg",
+                            "description": "Flavorful rice layered with spiced vegetables",
+                            "price": "180",
+                            "time_to_cook": "25 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_biryani_4",
+                            "name": "Egg Biryani",
+                            "image": "https://cdn.pixabay.com/photo/2022/02/12/15/02/biryani-7009118_1280.jpg",
+                            "description": "Basmati rice with boiled eggs and masala",
+                            "price": "160",
+                            "time_to_cook": "20 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                },
+                {
+                    "category_name": "Starters",
+                    "data": [
+                        {
+                            "id": "bombaybiryani_starters_1",
+                            "name": "Chicken Tikka",
+                            "image": "https://cdn.pixabay.com/photo/2022/09/30/20/15/tikka-7490195_1280.jpg",
+                            "description": "Grilled chicken marinated in yogurt and spices",
+                            "price": "200",
+                            "time_to_cook": "22 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_starters_2",
+                            "name": "Paneer Tikka",
+                            "image": "https://cdn.pixabay.com/photo/2020/03/13/20/16/paneer-tikka-4929034_1280.jpg",
+                            "description": "Charcoal-grilled paneer cubes with masala",
+                            "price": "180",
+                            "time_to_cook": "20 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_starters_3",
+                            "name": "Veg Spring Rolls",
+                            "image": "https://cdn.pixabay.com/photo/2023/07/18/19/19/spring-rolls-8135469_1280.jpg",
+                            "description": "Crispy rolls filled with veggies",
+                            "price": "120",
+                            "time_to_cook": "18 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "bombaybiryani_starters_4",
+                            "name": "Fish Amritsari",
+                            "image": "https://cdn.pixabay.com/photo/2014/11/05/15/57/new-years-eve-518032_1280.jpg",
+                            "description": "Crispy fried fish coated with masala batter",
+                            "price": "240",
+                            "time_to_cook": "25 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "restaurant_name": "Punjab Tandoor",
+            "restaurant_image": "https://images.unsplash.com/photo-1737141500169-4208e3296b28?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHJlc3RhdXJhbnRzfGVufDB8MnwwfHx8MA%3D%3D",
+            "v_image": "https://images.unsplash.com/photo-1560187839-af980ee37cec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnRzfGVufDB8MXwwfHx8MA%3D%3D",
+            "h_image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVzdGF1cmFudHN8ZW58MHwwfDB8fHww",
+            "address": "Model Town, Ludhiana",
+            "city": "Punjab",
+            "rating": "4.4",
+            "distance": "5.2 km",
+            "variants": [
+                {
+                    "category_name": "Tandoori",
+                    "data": [
+                        {
+                            "id": "punjabtandoor_tandoori_1",
+                            "name": "Tandoori Chicken",
+                            "image": "https://cdn.pixabay.com/photo/2016/06/26/22/45/india-1481494_1280.jpg",
+                            "description": "Chicken marinated in spices, roasted in clay oven",
+                            "price": "260",
+                            "time_to_cook": "35 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_tandoori_2",
+                            "name": "Paneer Tikka",
+                            "image": "https://cdn.pixabay.com/photo/2018/12/04/16/49/tandoori-3856045_1280.jpg",
+                            "description": "Paneer cubes marinated in masala and grilled",
+                            "price": "180",
+                            "time_to_cook": "28 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_tandoori_3",
+                            "name": "Seekh Kebab",
+                            "image": "https://cdn.pixabay.com/photo/2015/11/25/13/51/barbecue-1062083_1280.jpg",
+                            "description": "Juicy minced mutton kebabs grilled to perfection",
+                            "price": "220",
+                            "time_to_cook": "30 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_tandoori_4",
+                            "name": "Malai Tikka",
+                            "image": "https://cdn.pixabay.com/photo/2022/09/10/12/35/mutton-tikka-boti-7444981_1280.jpg",
+                            "description": "Creamy chicken tikka cooked in tandoor",
+                            "price": "240",
+                            "time_to_cook": "32 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                },
+                {
+                    "category_name": "Indian Breads",
+                    "data": [
+                        {
+                            "id": "punjabtandoor_breads_1",
+                            "name": "Butter Naan",
+                            "image": "https://cdn.pixabay.com/photo/2015/05/10/05/23/naan-760525_1280.jpg",
+                            "description": "Soft tandoori naan brushed with butter",
+                            "price": "40",
+                            "time_to_cook": "8 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_breads_2",
+                            "name": "Garlic Naan",
+                            "image": "https://cdn.pixabay.com/photo/2022/04/25/06/10/pakistani-plain-naan-7155154_1280.jpg",
+                            "description": "Crispy naan topped with garlic and butter",
+                            "price": "55",
+                            "time_to_cook": "10 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_breads_3",
+                            "name": "Lachha Paratha",
+                            "image": "https://cdn.pixabay.com/photo/2014/10/15/05/05/chapati-489254_1280.jpg",
+                            "description": "Layered paratha roasted in tandoor",
+                            "price": "60",
+                            "time_to_cook": "12 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "punjabtandoor_breads_4",
+                            "name": "Missi Roti",
+                            "image": "https://media.istockphoto.com/id/516359240/photo/bhendi-masala-or-bhindi-masala-ladies-finger-curry-with-chapati.jpg?s=2048x2048&w=is&k=20&c=vrDIhATmjBeqOY2qsS1SKHfa-rcDbZGD8W-mvwl_sFI=",
+                            "description": "Traditional Punjabi roti made with besan flour",
+                            "price": "45",
+                            "time_to_cook": "9 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "restaurant_name": "Chowman Express",
+            "restaurant_image": "https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHN8ZW58MHx8MHx8fDA%3D",
+            "v_image": "https://plus.unsplash.com/premium_photo-1670984939096-f3cfd48c7408?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3RhdXJhbnRzfGVufDB8MXwwfHx8MA%3D%3D",
+            "h_image": "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHN8ZW58MHwwfDB8fHww",
+            "address": "Salt Lake Sector V",
+            "city": "Kolkata",
+            "rating": "4.3",
+            "distance": "6.7 km",
+            "variants": [
+                {
+                    "category_name": "Chinese",
+                    "data": [
+                        {
+                            "id": "chowman_chinese_1",
+                            "name": "Hakka Noodles",
+                            "image": "https://cdn.pixabay.com/photo/2021/02/05/04/47/food-5983405_1280.jpg",
+                            "description": "Stir-fried noodles with vegetables and soy sauce",
+                            "price": "160",
+                            "time_to_cook": "18 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_chinese_2",
+                            "name": "Chilli Chicken",
+                            "image": "https://cdn.pixabay.com/photo/2015/08/21/06/34/chinese-food-898498_1280.jpg",
+                            "description": "Spicy chicken tossed in Indo-Chinese sauce",
+                            "price": "200",
+                            "time_to_cook": "22 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_chinese_3",
+                            "name": "Veg Fried Rice",
+                            "image": "https://cdn.pixabay.com/photo/2021/02/05/04/47/food-5983403_1280.jpg",
+                            "description": "Fried rice with seasonal vegetables",
+                            "price": "140",
+                            "time_to_cook": "15 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_chinese_4",
+                            "name": "Manchurian Balls",
+                            "image": "https://cdn.pixabay.com/photo/2020/05/29/04/17/chinese-5233490_1280.jpg",
+                            "description": "Crispy veg balls cooked in spicy gravy",
+                            "price": "170",
+                            "time_to_cook": "20 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                },
+                {
+                    "category_name": "Soups",
+                    "data": [
+                        {
+                            "id": "chowman_soups_1",
+                            "name": "Sweet Corn Soup",
+                            "image": "https://images.unsplash.com/photo-1572083925563-708dcdb63763?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNoaW5lc2UlMjBmb29kfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Creamy corn soup with vegetables",
+                            "price": "90",
+                            "time_to_cook": "10 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_soups_2",
+                            "name": "Hot & Sour Soup",
+                            "image": "https://images.unsplash.com/photo-1657517579655-57e2156c6271?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNoaW5lc2UlMjBmb29kfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Spicy soup with tofu, veggies, and soy sauce",
+                            "price": "100",
+                            "time_to_cook": "12 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_soups_3",
+                            "name": "Manchow Soup",
+                            "image": "https://plus.unsplash.com/premium_photo-1705851313830-78e4f977d210?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNoaW5lc2UlMjBzb3VwfGVufDB8MHwwfHx8MA%3D%3D",
+                            "description": "Dark spicy soup topped with fried noodles",
+                            "price": "110",
+                            "time_to_cook": "12 Mins",
+                            "serve_type": "Delivery"
+                        },
+                        {
+                            "id": "chowman_soups_4",
+                            "name": "Chicken Clear Soup",
+                            "image": "https://images.unsplash.com/photo-1645676524836-381f088c4da0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbmVzZSUyMHNvdXB8ZW58MHwwfDB8fHww",
+                            "description": "Light broth with chicken and herbs",
+                            "price": "130",
+                            "time_to_cook": "15 Mins",
+                            "serve_type": "Delivery"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
